@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+body {
+    background-image: url("./racetrack.png");
+    background-size:cover;
+}
+.white-nav {
+    background-color: white;
+    height: 80px;
+    box-shadow: 13px 3px 39px black;
+    font-family: 'Bree Serif', serif;
+    font-size: 57px;
+}
+span {
+    color: red;
+}
+.panel-shadow {
+    box-shadow: 3px 11px 39px 0px black;
+    
+}
+.font {
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
