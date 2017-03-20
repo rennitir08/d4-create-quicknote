@@ -27,3 +27,12 @@ span {
     font-family: 'Bree Serif', serif;
     font-size: 20px;
 }
+.search-panel {
+    box-shadow: 3px 11px 39px 0px black;
+    padding: 0px 9px 0px 0px;
+}
+.plus {
+    padding: 0px 0px 30px 40px;
+    color: yellow;
+     text-shadow: 3px 11px 20px black;
+}

@@ -4,14 +4,14 @@ import { routerReducer } from 'react-router-redux'
 
 // Initial shared state
 const initialSharedState = {
-    todos: []
+    notes: []
 }
 
 // Reducers
 function state(state = initialSharedState, action = {}) {
     switch (action.type) {
         case 'TODOS_UPDATE':
-            return { ...state, todos: action.body }
+            return { ...state, notes: action.body }
         default:
             return state
     }
